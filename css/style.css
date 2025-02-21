@@ -22,6 +22,10 @@ li{
     display: flex;
 }
 
+.flex-grow{
+    flex-grow: 1;
+}
+
 .container{
     max-width: 1180px;
     margin: 0 auto;
@@ -63,6 +67,10 @@ li{
 
 .col-40{
     width: 40%;
+}
+
+.col-30{
+    width: 30%;
 }
 
 .col-100{
@@ -115,6 +123,10 @@ li{
     background-color: #FFFFFF;
 }
 
-.bg-grey{
+.bg-dark-grey{
     background-color: #808080;
+}
+
+.bg-grey{
+    background-color: #A9A9A9;
 }
