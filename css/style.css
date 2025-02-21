@@ -18,9 +18,20 @@ li{
     margin: 0 10px;
 }
 
+.d-flex{
+    display: flex;
+}
+
 .container{
     max-width: 1180px;
     margin: 0 auto;
+    padding: 10px 0;
+}
+
+.content{
+    height: 300px;
+    border: 2px dashed #000;
+    margin: 20px 0;
 }
 
 .header-side{
@@ -41,8 +52,21 @@ li{
     text-align: right;
 }
 
-.d-flex{
-    display: flex;
+.col-home{
+    width: 65%;
+    margin: auto;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-100{
+    width: 100%;
 }
 
 
@@ -52,6 +76,10 @@ li{
 }
 
 .bg-pink{
+    background-color: #EF82ED;
+}
+
+.bg-pastel-pink{
     background-color: #FFC0CB;
 }
 
@@ -77,4 +105,16 @@ li{
 
 .bg-aqua{
     background-color: #00FFFF;
+}
+
+.bg-navy{
+    background-color: #000080;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.bg-grey{
+    background-color: #808080;
 }
